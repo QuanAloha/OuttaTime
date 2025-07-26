@@ -1,0 +1,25 @@
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: .devcontainer/Dockerfile
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/workspace  # Mount the entire project root as /workspace
+    environment:
+      - PYTHONUNBUFFERED=1
+    working_dir: /workspace/backend  # Set working directory to backend
+
+  frontend:
+    build:
+      context: ./frontend  # Build context is the frontend directory
+      dockerfile: .devcontainer/Dockerfile  # Path relative to context
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/workspace  # Mount the entire project root as /workspace
+      - /workspace/frontend/node_modules  # Exclude node_modules from host
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+    working_dir: /workspace/frontend  # Set working directory to frontend

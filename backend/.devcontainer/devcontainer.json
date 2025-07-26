@@ -1,0 +1,19 @@
+{
+  "name": "FastAPI Backend DevContainer",
+  "dockerComposeFile": ["../../docker-compose.yml"],
+  "service": "backend",
+  "workspaceFolder": "/workspace/backend",
+  "shutdownAction": "stopCompose",
+  "mounts": [
+    "source=${localEnv:HOME}/.ssh,target=/root/.ssh,type=bind,consistency=cached",
+    "source=${localEnv:HOME}/.gitconfig,target=/tmp/.gitconfig,type=bind,consistency=cached"
+  ],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance"
+      ]
+    }
+  }
+}
