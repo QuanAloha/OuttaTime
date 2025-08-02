@@ -1,9 +1,12 @@
-# Contributing
+# 🤝 Contributing
 
-If you would like to contribute to the outta time project, 
-Please contact Charles Wolfgramm at cwolfgrammbusniess@gmail.com.
+Thank you for your interest in contributing to the **OuttaTime** project!
 
-Once in touch with Charles, we can set up a meeting where an opportunity
-For contributing can be discussed.
+If you'd like to get involved, please reach out to:
 
-Thank you for your interest in the Outta Time Project!
+**Charles Wolfgramm**  
+📧 [cwolfgrammbusniess@gmail.com](mailto:cwolfgrammbusniess@gmail.com)
+
+Once you're in touch, we can schedule a quick meeting to discuss current opportunities and how you can best contribute to the project.
+
+We appreciate your support and look forward to collaborating with you!
