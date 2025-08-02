@@ -1,43 +1,53 @@
 # OuttaTime
-Welcome to the Outta Time driver compliance and dispatcher communication app. 
-Currently, we are in our infancy, but if you would like to contribute, please check out
-the contributing.md for further instructions. Outta time is a driver's compliance web app 
-that allows drivers to easily communicate with their dispatcher in many ways. For drivers,
-we have easy access to your routplanning including weather, vehicle maintenance stops, and 
-traffic avoidance. We also have easy access to your HOS logs and pre-trip inspection reports.
-And anything you upload to our service that you dispatch needs access to, they can have 
-it with your permission, of course. Dispatchers have access to all necessary documents 
-acquired along the way, and you don't have to worry about allowing access on the road, 
-with or easy-to-use AI-enhanced voice assistant. Drivers also get driving scores 
-with the ability to earn driving rewards at tye discretion of you management. 
 
-## Features 
+**OuttaTime** is a driver compliance and dispatcher communication web application. We’re still in our early stages, but if you're interested in contributing, please check out our [CONTRIBUTING.md](./contributing.md).
 
-### Implemented
+OuttaTime aims to simplify life on the road by providing drivers with:
 
-### Planned 
+- **Smart route planning** with weather, maintenance stops, and traffic avoidance  
+- **Easy access to HOS logs** and pre-trip inspection reports  
+- **Secure document sharing** with dispatchers — only with your permission  
+- **An AI-powered voice assistant** to help on the go  
+- **Driving scores and optional rewards**, at the discretion of your management  
 
-- Driving Reports
-- Driving Stats
-- Driving Rewards
-- In-app Communication through tests or calls.
-- HOS Logging
-- Driver Monitering
-- Load details
-  - Weight
-  - routes
-  - faculty maps
-- Voice assistant
-- Driver Data Control
-- Advanced route planning 
-  - Rout History
-  - weather conditions
-  - maintenance stops
-  - community activities
-- Driver scores
-- Driver reward
+Dispatchers benefit from real-time access to all necessary documents and logs without interrupting the driver — all through an intuitive interface and automated assistant.
 
-## Developer notes
+---
 
-Outta time runs on AWS in a --- instance with fast api as the back end and React as the frontend. 
-For contributing, please see our contributing.md.
+## 🚀 Features
+
+### ✅ Implemented  
+_(We are currently working on implementing our basic features)_
+
+### 🛠️ Planned
+
+- **Driving Reports & Statistics**  
+- **Driving Rewards**  
+- **In-app Communication** (Text / Call)  
+- **HOS (Hours of Service) Logging**  
+- **Driver Monitoring**  
+- **Load Details**  
+  - **Load Weight**  
+  - **Route Information**  
+  - **Facility Maps**  
+- **Voice Assistant**  
+- **Driver Data Control**  
+- **Advanced Route Planning**  
+  - **Route History**  
+  - **Weather Conditions**  
+  - **Maintenance Stops**  
+  - **Nearby Community Activities**  
+- **Driver Scores**  
+- **Driver Reward Program**
+
+---
+
+## 🧑‍💻 Developer Notes
+
+OuttaTime runs on **AWS** (_instance type: specify here_) using:
+
+- **FastAPI** for the backend  
+- **React** for the frontend  
+
+To get involved, check out our [CONTRIBUTING.md](./contributing.md).  
+Your help is appreciated — we’re just getting started.
